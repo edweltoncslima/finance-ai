@@ -18,7 +18,7 @@ const LoginPage = async () => {
           alt="Finance AI"
           width={173}
           height={39}
-          className="mb-6"
+          className="mb-8"
         />
         <h1 className="mb-3 text-4xl font-bold">Bem-Vindo</h1>
         <p className="mb-8 text-muted-foreground">
