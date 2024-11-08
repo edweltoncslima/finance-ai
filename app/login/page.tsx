@@ -1,7 +1,7 @@
 import { LogInIcon } from "lucide-react";
 import Image from "next/image";
 import { Button } from "../_components/ui/button";
-const login = () => {
+const LoginPage = () => {
   return (
     <div className="grid h-full grid-cols-2">
       {/* ESQUERDA */}
@@ -14,7 +14,7 @@ const login = () => {
           className="mb-8"
         />
         <h1 className="mb-3 text-4xl font-bold">Bem-Vindo</h1>
-        <p className="text-muted-foreground mb-8">
+        <p className="mb-8 text-muted-foreground">
           A Finance AI é uma plataforma de gestão financeira que utiliza IA para
           monitorar suas movimentações, e oferecer insights personalizados,
           facilitando o controle do seu orçamento.
@@ -37,4 +37,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default LoginPage;
