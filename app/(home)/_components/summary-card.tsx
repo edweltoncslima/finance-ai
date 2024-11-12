@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
-import { Card, CardContent, CardHeader } from "../_components/ui/card";
-import AddTransactionButton from "../_components/add-transaction-button";
+import { Card, CardContent, CardHeader } from "@/app/_components/ui/card";
+import AddTransactionButton from "@/app/_components/add-transaction-button";
 
 interface SummaryCardProps {
   icon: ReactNode;
@@ -15,7 +15,7 @@ const SummaryCard = ({
   size = "small",
 }: SummaryCardProps) => {
   return (
-    <Card>
+    <Card className={`${size === "large" ? "bg-white bg-opacity-5" : ""}`}>
       <CardHeader className="flex-row items-center gap-4">
         {icon}
         <p

@@ -7,7 +7,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../_components/ui/select";
+} from "@/app/_components/ui/select";
 
 const MONTH_OPTIONS = [
   { value: "01", label: "Janeiro" },
